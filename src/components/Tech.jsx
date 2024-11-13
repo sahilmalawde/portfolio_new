@@ -5,7 +5,7 @@ import { styles } from '../style'
 
 const Tech = () => {
   return (
-    <section className='relative w-full h-screen mx-auto' id='tech'> 
+    <section className='relative w-full h-screen mx-auto xs:mt-10' id='tech'> 
       <div className='absolute inset-0 sm:top-[70px] top-5 w-full mx-0 flex flex-col overflow-hidden '>
         <h1 className={`${styles.sectionSubText} ml-5`}>Coding Experience</h1>
         <h1 className= {`${styles.sectionHeadText} ml-5`}> <span className='text-transparent bg-clip-text bg-gradient-to-r from-blue-200 via-purple-400 to-orange-200 animate-waviy delay-calc(.1s * var(--i)) hover:animate-pulse '>Tech</span></h1>
